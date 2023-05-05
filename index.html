@@ -14,7 +14,7 @@
                 this.input.on('pointerdown', (event) => {
                     this.tweens.add({
                         targets: this.meep,
-                        scale: 2,
+                        scale: 10,
                         duration: 100
                     });
                 });
@@ -35,7 +35,7 @@
                     // twerk the mouse
                     this.tweens.add({
                         targets: this.meep,
-                        angle: {from: -5, to: 0},
+                        angle: {from: -500, to: 0},
                         duration: 250
                     });
 
@@ -68,7 +68,7 @@
             width: 640,
             height: 520,
             scene: Demo,
-            backgroundColor: 0xdddddd,
+            backgroundColor: 0x17BDA4,
             parent: 'here'
         });
     </script>
